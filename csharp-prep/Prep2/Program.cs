@@ -10,6 +10,7 @@ class Program
         string userGrade=Console.ReadLine();
         float gradePercentage =float.Parse(userGrade);
 
+        string letter="";
         if (gradePercentage >=90)
         {
             Console.Write("Letter=A");
